@@ -9,17 +9,17 @@
 >
   <channel>
     <title>Note</title>
-    <link>https://example.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 19 Jan 2025 20:24:01 +0900</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test02</title>
-      <link>https://example.com/posts/test02/</link>
+      <link>http://localhost:1313/posts/test/test02/</link>
       <pubDate>Sun, 19 Jan 2025 20:24:01 +0900</pubDate>
-      <guid>https://example.com/posts/test02/</guid>
+      <guid>http://localhost:1313/posts/test/test02/</guid>
       <description>&lt;h1 id=&#34;test&#34;&gt;test&lt;/h1&gt;&#xA;&lt;p&gt;this is test.&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="test">test</h1>
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>Test01</title>
-      <link>https://example.com/posts/test01/</link>
+      <link>http://localhost:1313/posts/test/test01/</link>
       <pubDate>Sun, 19 Jan 2025 20:05:17 +0900</pubDate>
-      <guid>https://example.com/posts/test01/</guid>
+      <guid>http://localhost:1313/posts/test/test01/</guid>
       <description>&lt;h1 id=&#34;テスト&#34;&gt;テスト&lt;/h1&gt;&#xA;&lt;p&gt;記事追加のテスト。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="テスト">テスト</h1>
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>First Post</title>
-      <link>https://example.com/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Sun, 29 Dec 2024 14:35:27 +0900</pubDate>
-      <guid>https://example.com/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>&lt;p&gt;テスト投稿。&lt;/p&gt;&#xA;&lt;h2 id=&#34;見出し&#34;&gt;見出し&lt;/h2&gt;&#xA;&lt;p&gt;本文。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;リスト項目1&lt;/li&gt;&#xA;&lt;li&gt;リスト項目2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;追記。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<p>テスト投稿。</p>
@@ -60,9 +60,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;個人的なメモ。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<p>個人的なメモ。</p>
