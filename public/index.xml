@@ -32,7 +32,7 @@
       <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Sun, 29 Dec 2024 14:35:27 +0900</pubDate>
       <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;p&gt;テスト投稿。&lt;/p&gt;&#xA;&lt;h2 id=&#34;見出し&#34;&gt;見出し&lt;/h2&gt;&#xA;&lt;p&gt;本文。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;リスト項目1&lt;/li&gt;&#xA;&lt;li&gt;リスト項目2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;p&gt;テスト投稿。&lt;/p&gt;&#xA;&lt;h2 id=&#34;見出し&#34;&gt;見出し&lt;/h2&gt;&#xA;&lt;p&gt;本文。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;リスト項目1&lt;/li&gt;&#xA;&lt;li&gt;リスト項目2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;追記。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<p>テスト投稿。</p>
 <h2 id="見出し">見出し</h2>
@@ -42,7 +42,8 @@
 <li>リスト項目2</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
-</span></span></code></pre></div>]]></content:encoded>
+</span></span></code></pre></div><p>追記。</p>
+]]></content:encoded>
       
     </item>
     <item>
