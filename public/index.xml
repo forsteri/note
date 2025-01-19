@@ -13,8 +13,20 @@
     <description>Recent content on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 19 Jan 2025 20:05:17 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2025 20:24:01 +0900</lastBuildDate>
     <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test02</title>
+      <link>https://example.com/tech/test02/</link>
+      <pubDate>Sun, 19 Jan 2025 20:24:01 +0900</pubDate>
+      <guid>https://example.com/tech/test02/</guid>
+      <description>&lt;h1 id=&#34;test&#34;&gt;test&lt;/h1&gt;&#xA;&lt;p&gt;this is test.&lt;/p&gt;</description>
+      
+        <content:encoded><![CDATA[<h1 id="test">test</h1>
+<p>this is test.</p>
+]]></content:encoded>
+      
+    </item>
     <item>
       <title>Test01</title>
       <link>https://example.com/posts/test01/</link>
