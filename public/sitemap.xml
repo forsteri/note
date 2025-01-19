@@ -8,6 +8,9 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-01-19T20:05:17+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/test01/</loc>
+    <lastmod>2025-01-19T20:05:17+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/first-post/</loc>
     <lastmod>2024-12-29T14:35:27+09:00</lastmod>
   </url><url>
