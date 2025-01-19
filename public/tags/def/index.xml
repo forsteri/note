@@ -9,17 +9,17 @@
 >
   <channel>
     <title>Def on Note</title>
-    <link>http://localhost:1313/tags/def/</link>
+    <link>https://example.com/tags/def/</link>
     <description>Recent content in Def on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 19 Jan 2025 20:05:17 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/def/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/tags/def/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test01</title>
-      <link>http://localhost:1313/posts/test/test01/</link>
+      <link>https://example.com/posts/test/test01/</link>
       <pubDate>Sun, 19 Jan 2025 20:05:17 +0900</pubDate>
-      <guid>http://localhost:1313/posts/test/test01/</guid>
+      <guid>https://example.com/posts/test/test01/</guid>
       <description>&lt;h1 id=&#34;テスト&#34;&gt;テスト&lt;/h1&gt;&#xA;&lt;p&gt;記事追加のテスト。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="テスト">テスト</h1>
