@@ -13,18 +13,8 @@
     <description>Recent content in Tags on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 26 Jan 2025 21:11:06 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 17:24:30 +0900</lastBuildDate>
     <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>React</title>
-      <link>https://example.com/tags/react/</link>
-      <pubDate>Sun, 26 Jan 2025 21:11:06 +0900</pubDate>
-      <guid>https://example.com/tags/react/</guid>
-      <description></description>
-      
-        <content:encoded><![CDATA[]]></content:encoded>
-      
-    </item>
     <item>
       <title>WSL</title>
       <link>https://example.com/tags/wsl/</link>
