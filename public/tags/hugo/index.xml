@@ -9,17 +9,17 @@
 >
   <channel>
     <title>Hugo on Note</title>
-    <link>http://localhost:1313/tags/hugo/</link>
+    <link>https://example.com/tags/hugo/</link>
     <description>Recent content in Hugo on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 08:34:30 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoでコンテンツを追加する</title>
-      <link>http://localhost:1313/posts/202501/250126-01/</link>
+      <link>https://example.com/posts/202501/250126-01/</link>
       <pubDate>Sun, 26 Jan 2025 08:34:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/202501/250126-01/</guid>
+      <guid>https://example.com/posts/202501/250126-01/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;コンテンツを追加&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/post-name.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;デフォルトでは&lt;code&gt;draft = true&lt;/code&gt;になっているので、公開前に&lt;code&gt;false&lt;/code&gt;にする。&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;ローカルでサイトをプレビュー&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;http://localhost:1313/&lt;/code&gt; にアクセスしてプレビューを確認する。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<ol>

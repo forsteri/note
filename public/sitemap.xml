@@ -2,38 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://example.com/</loc>
+    <lastmod>2025-01-26T21:11:06+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2025-01-26T21:11:06+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/react/</loc>
+    <lastmod>2025-01-26T21:11:06+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/202501/250126-07/</loc>
+    <lastmod>2025-01-26T21:11:06+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2025-01-26T21:11:06+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/wsl/</loc>
+    <lastmod>2025-01-26T17:24:30+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/202501/250126-06/</loc>
+    <lastmod>2025-01-26T17:24:30+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/docker/</loc>
+    <lastmod>2025-01-26T17:23:04+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/202501/250126-05/</loc>
+    <lastmod>2025-01-26T17:23:04+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/aws/</loc>
     <lastmod>2025-01-26T12:30:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-04/</loc>
+    <loc>https://example.com/posts/202501/250126-04/</loc>
     <lastmod>2025-01-26T12:30:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cdk/</loc>
+    <loc>https://example.com/tags/cdk/</loc>
     <lastmod>2025-01-26T12:30:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-26T12:30:29+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-26T12:30:29+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-01-26T12:30:29+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-02/</loc>
+    <loc>https://example.com/posts/202501/250126-02/</loc>
     <lastmod>2025-01-26T08:44:51+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://example.com/tags/hugo/</loc>
     <lastmod>2025-01-26T08:34:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-01/</loc>
+    <loc>https://example.com/posts/202501/250126-01/</loc>
     <lastmod>2025-01-26T08:34:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://example.com/about/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://example.com/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.com/categories/</loc>
   </url>
 </urlset>

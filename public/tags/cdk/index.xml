@@ -9,17 +9,17 @@
 >
   <channel>
     <title>CDK on Note</title>
-    <link>http://localhost:1313/tags/cdk/</link>
+    <link>https://example.com/tags/cdk/</link>
     <description>Recent content in CDK on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 12:30:29 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS CDKのdeployとdestroy</title>
-      <link>http://localhost:1313/posts/202501/250126-04/</link>
+      <link>https://example.com/posts/202501/250126-04/</link>
       <pubDate>Sun, 26 Jan 2025 12:30:29 +0900</pubDate>
-      <guid>http://localhost:1313/posts/202501/250126-04/</guid>
+      <guid>https://example.com/posts/202501/250126-04/</guid>
       <description>&lt;h1 id=&#34;deploy&#34;&gt;deploy&lt;/h1&gt;&#xA;&lt;p&gt;普通にデプロイ&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk deploy&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;デプロイ可能なスタックのリストを確認&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk ls&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;特定のスタックをデプロイ&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk deploy &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;stack-name&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;すべてのスタックをデプロイ&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="deploy">deploy</h1>
@@ -53,9 +53,9 @@
     </item>
     <item>
       <title>AWS CDKプロジェクトの立ち上げ</title>
-      <link>http://localhost:1313/posts/202501/250126-02/</link>
+      <link>https://example.com/posts/202501/250126-02/</link>
       <pubDate>Sun, 26 Jan 2025 08:44:51 +0900</pubDate>
-      <guid>http://localhost:1313/posts/202501/250126-02/</guid>
+      <guid>https://example.com/posts/202501/250126-02/</guid>
       <description>&lt;h1 id=&#34;準備&#34;&gt;準備&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;AWS CLIとNode.js&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AWS CLI: &lt;code&gt;aws configure&lt;/code&gt;でクレデンシャルを設定しておく&lt;/li&gt;&#xA;&lt;li&gt;Node.js&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;node -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;aws --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;AWS CDKのインストール&#xA;インストールとバージョン確認。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install -g aws-cdk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;h1 id=&#34;プロジェクトの作成&#34;&gt;プロジェクトの作成&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;ディレクトリの作成&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir my-ckd-project&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-cdk-project&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;初期化&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk init app --language&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;typescript&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これでCDKプロジェクトの雛形が生成される。&lt;br&gt;&#xA;具体的に作成されるのは以下の構成。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="準備">準備</h1>
