@@ -18,36 +18,58 @@
   <meta name="MobileOptimized" content="320" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark light">
-  <meta name="description" content="test
-this is test." />
+  <meta name="description" content="deploy
+普通にデプロイ
+cdk deploy
+デプロイ可能なスタックのリストを確認
+cdk ls
+特定のスタックをデプロイ
+cdk deploy [stack-name]
+すべてのスタックをデプロイ" />
   <meta name="author" content="forsteri">
-  <meta name="keywords" content="">
-  <title>Test02 | Note</title>
-  <link rel="canonical" href="http://localhost:1313/posts/test/test02/" />
+  <meta name="keywords" content="AWS, CDK">
+  <title>AWS CDKのdeployとdestroy | Note</title>
+  <link rel="canonical" href="http://localhost:1313/posts/202501/250126-04/" />
   
 
   
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="test
-this is test." />
-  <meta property="og:title" content="Test02" />
+  <meta property="og:description" content="deploy
+普通にデプロイ
+cdk deploy
+デプロイ可能なスタックのリストを確認
+cdk ls
+特定のスタックをデプロイ
+cdk deploy [stack-name]
+すべてのスタックをデプロイ" />
+  <meta property="og:title" content="AWS CDKのdeployとdestroy" />
   <meta property="og:site_name" content="Note" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:url" content="http://localhost:1313/posts/test/test02/" />
+  <meta property="og:url" content="http://localhost:1313/posts/202501/250126-04/" />
   <meta property="og:locale" content="ja-jp" />
 
   
-    <meta property="article:published_time" content="2025-01-19" />
-    <meta property="article:modified_time" content="2025-01-19" />
+    <meta property="article:published_time" content="2025-01-26" />
+    <meta property="article:modified_time" content="2025-01-26" />
+     
+      <meta property="article:tag" content="AWS" />
     
+      <meta property="article:tag" content="CDK" />
+     
   
 
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Test02 | Note" />
-  <meta name="twitter:description" content="test
-this is test." />
-  <meta name="twitter:domain" content="http://localhost:1313/posts/test/test02/" />
+  <meta name="twitter:title" content="AWS CDKのdeployとdestroy | Note" />
+  <meta name="twitter:description" content="deploy
+普通にデプロイ
+cdk deploy
+デプロイ可能なスタックのリストを確認
+cdk ls
+特定のスタックをデプロイ
+cdk deploy [stack-name]
+すべてのスタックをデプロイ" />
+  <meta name="twitter:domain" content="http://localhost:1313/posts/202501/250126-04/" />
 
   
   
@@ -182,7 +204,7 @@ this is test." />
 
 
 <li class="active">
-  <a href="http://localhost:1313/posts/test/test02/">Test02</a>
+  <a href="http://localhost:1313/posts/202501/250126-04/">AWS CDKのdeployとdestroy</a>
 </li>
 
 </ol>
@@ -201,7 +223,7 @@ this is test." />
 <main id="main">
   <div class="container has-padding">
     <div class="article-card post single">
-      <h1 class="title">Test02</h1>
+      <h1 class="title">AWS CDKのdeployとdestroy</h1>
       <div class="post-info">
         <span>
 
@@ -221,7 +243,7 @@ this is test." />
 
 
 
-<time datetime=2025-01-19T20:24:01&#43;0900 class="date">January 19, 2025</time></span>
+<time datetime=2025-01-26T12:30:29&#43;0900 class="date">January 26, 2025</time></span>
         <span>
 
 
@@ -269,9 +291,33 @@ forsteri</span>
       </div>
       <article class="post-entry content">
         
-          <h1 id="test">test<a hidden class="heading-anchor" aria-hidden="true" href="#test">#</a></h1>
-<p>this is test.</p>
-
+          <h1 id="deploy">deploy<a hidden class="heading-anchor" aria-hidden="true" href="#deploy">#</a></h1>
+<p>普通にデプロイ</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk deploy
+</span></span></code></pre></div><p>デプロイ可能なスタックのリストを確認</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk ls
+</span></span></code></pre></div><p>特定のスタックをデプロイ</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk deploy <span class="o">[</span>stack-name<span class="o">]</span>
+</span></span></code></pre></div><p>すべてのスタックをデプロイ</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk deploy --all
+</span></span></code></pre></div><p>並行デプロイ</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk deploy --all --concurrency <span class="m">3</span>
+</span></span></code></pre></div><p>参考: <a href="https://dev.classmethod.jp/articles/cdk-concurrency-deployment/">CDKで複数スタックの並行デプロイを行ってみた</a></p>
+<p>デプロイ時の確認スキップ</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk deploy --all --require-approval never
+</span></span></code></pre></div><h1 id="destroy">destroy<a hidden class="heading-anchor" aria-hidden="true" href="#destroy">#</a></h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy
+</span></span></code></pre></div><p>特定のスタックを削除</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy MyAppStack
+</span></span></code></pre></div><p>複数のスタックを削除</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy MyAppStack MyInfraStack
+</span></span></code></pre></div><p>すべてのスタックを削除</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy --all
+</span></span></code></pre></div><p>ワイルドカードで削除</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy <span class="s1">&#39;Dev*&#39;</span>
+</span></span></code></pre></div><p>確認プロンプトのスキップ</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy MyAppStack --force
+</span></span></code></pre></div>
 
 
         
@@ -299,10 +345,39 @@ forsteri</span>
 
 
 
-</span><time>2025-01-19 20:24 JST</time>
+</span><time>2025-01-26 12:30 JST</time>
       
     </div>
 
+    
+      <div class="row">
+        <span class="label">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><path d='M288 16L0 304l176 176 288-288V16zm80 128a32 32 0 1132-32 32 32 0 01-32 32z'/><path d='M480 64v144L216.9 471.1 242 496l270-272V64h-32z'/></svg>
+
+
+
+</span>
+        <ul class="tags">
+        
+          <li class="hashed-tag"><a href="http://localhost:1313/tags/aws">AWS</a></li>
+        
+          <li class="hashed-tag"><a href="http://localhost:1313/tags/cdk">CDK</a></li>
+        
+        </ul>
+      </div>
     
 
     

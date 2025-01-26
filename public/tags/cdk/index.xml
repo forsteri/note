@@ -8,13 +8,13 @@
   
 >
   <channel>
-    <title>Posts on Note</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Note</description>
+    <title>CDK on Note</title>
+    <link>http://localhost:1313/tags/cdk/</link>
+    <description>Recent content in CDK on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 12:30:29 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS CDKのdeployとdestroy</title>
       <link>http://localhost:1313/posts/202501/250126-04/</link>
@@ -130,31 +130,6 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cdk destroy
 </span></span></code></pre></div><p>CDK経由で作成したものはすべて削除されるので、残しておきたいものがあれば注意すること。<br>
 なお、S3やDynamoDBなどのオプションによっては残るものもある。</p>
-]]></content:encoded>
-      
-    </item>
-    <item>
-      <title>Hugoでコンテンツを追加する</title>
-      <link>http://localhost:1313/posts/202501/250126-01/</link>
-      <pubDate>Sun, 26 Jan 2025 08:34:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/202501/250126-01/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;コンテンツを追加&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/post-name.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;デフォルトでは&lt;code&gt;draft = true&lt;/code&gt;になっているので、公開前に&lt;code&gt;false&lt;/code&gt;にする。&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;ローカルでサイトをプレビュー&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;http://localhost:1313/&lt;/code&gt; にアクセスしてプレビューを確認する。&lt;/p&gt;</description>
-      
-        <content:encoded><![CDATA[<ol>
-<li>コンテンツを追加</li>
-</ol>
-<pre tabindex="0"><code>hugo new posts/post-name.md
-</code></pre><p>デフォルトでは<code>draft = true</code>になっているので、公開前に<code>false</code>にする。</p>
-<ol start="2">
-<li>ローカルでサイトをプレビュー</li>
-</ol>
-<pre tabindex="0"><code>hugo server
-</code></pre><p><code>http://localhost:1313/</code> にアクセスしてプレビューを確認する。</p>
-<ol start="3">
-<li>静的ファイルのビルド</li>
-</ol>
-<pre tabindex="0"><code>hugo
-</code></pre><p>ビルドされたHTMLファイルが<code>public/</code>に生成される。</p>
 ]]></content:encoded>
       
     </item>
