@@ -9,17 +9,17 @@
 >
   <channel>
     <title>WSL on Note</title>
-    <link>http://localhost:1313/tags/wsl/</link>
+    <link>https://forsteri.github.io/note/tags/wsl/</link>
     <description>Recent content in WSL on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 17:24:30 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://forsteri.github.io/note/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WSLのメモ（更新中）</title>
-      <link>http://localhost:1313/posts/202501/250126-06/</link>
+      <link>https://forsteri.github.io/note/posts/202501/250126-06/</link>
       <pubDate>Sun, 26 Jan 2025 17:24:30 +0900</pubDate>
-      <guid>http://localhost:1313/posts/202501/250126-06/</guid>
+      <guid>https://forsteri.github.io/note/posts/202501/250126-06/</guid>
       <description>&lt;p&gt;ディストリビューションの確認&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wsl&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-list&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-verbose&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;              &lt;span class=&#34;n&#34;&gt;STATE&lt;/span&gt;           &lt;span class=&#34;n&#34;&gt;VERSION&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ubuntu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;24.04&lt;/span&gt;      &lt;span class=&#34;n&#34;&gt;Running&lt;/span&gt;         &lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nb&#34;&gt;docker-desktop&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;Running&lt;/span&gt;         &lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;*&lt;/code&gt;が付いているものがデフォルト。&lt;/p&gt;&#xA;&lt;p&gt;Ubuntuに接続&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wsl&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# docker --version&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Docker&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;27.4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;build&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bde2b89&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rootログインになってた。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<p>ディストリビューションの確認</p>

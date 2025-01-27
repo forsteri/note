@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://forsteri.github.io/note/</loc>
     <lastmod>2025-01-26T21:11:06+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://forsteri.github.io/note/posts/</loc>
     <lastmod>2025-01-26T21:11:06+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://forsteri.github.io/note/tags/</loc>
     <lastmod>2025-01-26T17:24:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/wsl/</loc>
+    <loc>https://forsteri.github.io/note/tags/wsl/</loc>
     <lastmod>2025-01-26T17:24:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-06/</loc>
+    <loc>https://forsteri.github.io/note/posts/202501/250126-06/</loc>
     <lastmod>2025-01-26T17:24:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://forsteri.github.io/note/tags/docker/</loc>
     <lastmod>2025-01-26T17:23:04+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-05/</loc>
+    <loc>https://forsteri.github.io/note/posts/202501/250126-05/</loc>
     <lastmod>2025-01-26T17:23:04+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://forsteri.github.io/note/tags/aws/</loc>
     <lastmod>2025-01-26T12:30:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-04/</loc>
+    <loc>https://forsteri.github.io/note/posts/202501/250126-04/</loc>
     <lastmod>2025-01-26T12:30:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cdk/</loc>
+    <loc>https://forsteri.github.io/note/tags/cdk/</loc>
     <lastmod>2025-01-26T12:30:29+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-02/</loc>
+    <loc>https://forsteri.github.io/note/posts/202501/250126-02/</loc>
     <lastmod>2025-01-26T08:44:51+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://forsteri.github.io/note/tags/hugo/</loc>
     <lastmod>2025-01-26T08:34:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/202501/250126-01/</loc>
+    <loc>https://forsteri.github.io/note/posts/202501/250126-01/</loc>
     <lastmod>2025-01-26T08:34:30+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://forsteri.github.io/note/about/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://forsteri.github.io/note/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://forsteri.github.io/note/categories/</loc>
   </url>
 </urlset>
