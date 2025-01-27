@@ -9,17 +9,17 @@
 >
   <channel>
     <title>Docker on Note</title>
-    <link>https://example.com/tags/docker/</link>
+    <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 17:23:04 +0900</lastBuildDate>
-    <atom:link href="https://example.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dockerのメモ（更新中）</title>
-      <link>https://example.com/posts/202501/250126-05/</link>
+      <link>http://localhost:1313/posts/202501/250126-05/</link>
       <pubDate>Sun, 26 Jan 2025 17:23:04 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-05/</guid>
+      <guid>http://localhost:1313/posts/202501/250126-05/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;HelloWorldコンテナを起動する&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ docker container run hello-world&#xA;latest: Pulling from library/hello-world&#xA;e6590344b1a5: Pull complete&#xA;Digest: sha256:d715f14f9eca81473d9112df50457893aa4d099adeb4729f679006bf5ea12407&#xA;Status: Downloaded newer image for hello-world:latest&#xA;&#xA;Hello from Docker!&#xA;This message shows that your installation appears to be working correctly.&#xA;&#xA;To generate this message, Docker took the following steps:&#xA; 1. The Docker client contacted the Docker daemon.&#xA; 2. The Docker daemon pulled the &amp;#34;hello-world&amp;#34; image from the Docker Hub.&#xA;    (amd64)&#xA; 3. The Docker daemon created a new container from that image which runs the&#xA;    executable that produces the output you are currently reading.&#xA; 4. The Docker daemon streamed that output to the Docker client, which sent it&#xA;    to your terminal.&#xA;&#xA;To try something more ambitious, you can run an Ubuntu container with:&#xA; $ docker run -it ubuntu bash&#xA;&#xA;Share images, automate workflows, and more with a free Docker ID:&#xA; https://hub.docker.com/&#xA;&#xA;For more examples and ideas, visit:&#xA; https://docs.docker.com/get-started/&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;コンテナ一覧を確認する&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker --version

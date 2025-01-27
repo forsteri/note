@@ -9,17 +9,17 @@
 >
   <channel>
     <title>Posts on Note</title>
-    <link>https://example.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 17:24:30 +0900</lastBuildDate>
-    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WSLのメモ（更新中）</title>
-      <link>https://example.com/posts/202501/250126-06/</link>
+      <link>http://localhost:1313/posts/202501/250126-06/</link>
       <pubDate>Sun, 26 Jan 2025 17:24:30 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-06/</guid>
+      <guid>http://localhost:1313/posts/202501/250126-06/</guid>
       <description>&lt;p&gt;ディストリビューションの確認&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wsl&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-list&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-verbose&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;NAME&lt;/span&gt;              &lt;span class=&#34;n&#34;&gt;STATE&lt;/span&gt;           &lt;span class=&#34;n&#34;&gt;VERSION&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Ubuntu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;24.04&lt;/span&gt;      &lt;span class=&#34;n&#34;&gt;Running&lt;/span&gt;         &lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nb&#34;&gt;docker-desktop&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;Running&lt;/span&gt;         &lt;span class=&#34;mf&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;*&lt;/code&gt;が付いているものがデフォルト。&lt;/p&gt;&#xA;&lt;p&gt;Ubuntuに接続&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-PowerShell&#34; data-lang=&#34;PowerShell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wsl&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# docker --version&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Docker&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;27.4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;build&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bde2b89&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rootログインになってた。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<p>ディストリビューションの確認</p>
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Dockerのメモ（更新中）</title>
-      <link>https://example.com/posts/202501/250126-05/</link>
+      <link>http://localhost:1313/posts/202501/250126-05/</link>
       <pubDate>Sun, 26 Jan 2025 17:23:04 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-05/</guid>
+      <guid>http://localhost:1313/posts/202501/250126-05/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;HelloWorldコンテナを起動する&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ docker container run hello-world&#xA;latest: Pulling from library/hello-world&#xA;e6590344b1a5: Pull complete&#xA;Digest: sha256:d715f14f9eca81473d9112df50457893aa4d099adeb4729f679006bf5ea12407&#xA;Status: Downloaded newer image for hello-world:latest&#xA;&#xA;Hello from Docker!&#xA;This message shows that your installation appears to be working correctly.&#xA;&#xA;To generate this message, Docker took the following steps:&#xA; 1. The Docker client contacted the Docker daemon.&#xA; 2. The Docker daemon pulled the &amp;#34;hello-world&amp;#34; image from the Docker Hub.&#xA;    (amd64)&#xA; 3. The Docker daemon created a new container from that image which runs the&#xA;    executable that produces the output you are currently reading.&#xA; 4. The Docker daemon streamed that output to the Docker client, which sent it&#xA;    to your terminal.&#xA;&#xA;To try something more ambitious, you can run an Ubuntu container with:&#xA; $ docker run -it ubuntu bash&#xA;&#xA;Share images, automate workflows, and more with a free Docker ID:&#xA; https://hub.docker.com/&#xA;&#xA;For more examples and ideas, visit:&#xA; https://docs.docker.com/get-started/&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;コンテナ一覧を確認する&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker --version
@@ -92,9 +92,9 @@ For more examples and ideas, visit:
     </item>
     <item>
       <title>AWS CDKのdeployとdestroy</title>
-      <link>https://example.com/posts/202501/250126-04/</link>
+      <link>http://localhost:1313/posts/202501/250126-04/</link>
       <pubDate>Sun, 26 Jan 2025 12:30:29 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-04/</guid>
+      <guid>http://localhost:1313/posts/202501/250126-04/</guid>
       <description>&lt;h1 id=&#34;deploy&#34;&gt;deploy&lt;/h1&gt;&#xA;&lt;p&gt;普通にデプロイ&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk deploy&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;デプロイ可能なスタックのリストを確認&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk ls&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;特定のスタックをデプロイ&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk deploy &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;stack-name&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;すべてのスタックをデプロイ&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="deploy">deploy</h1>
@@ -128,9 +128,9 @@ For more examples and ideas, visit:
     </item>
     <item>
       <title>AWS CDKプロジェクトの立ち上げ</title>
-      <link>https://example.com/posts/202501/250126-02/</link>
+      <link>http://localhost:1313/posts/202501/250126-02/</link>
       <pubDate>Sun, 26 Jan 2025 08:44:51 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-02/</guid>
+      <guid>http://localhost:1313/posts/202501/250126-02/</guid>
       <description>&lt;h1 id=&#34;準備&#34;&gt;準備&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;AWS CLIとNode.js&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AWS CLI: &lt;code&gt;aws configure&lt;/code&gt;でクレデンシャルを設定しておく&lt;/li&gt;&#xA;&lt;li&gt;Node.js&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;node -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;aws --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;AWS CDKのインストール&#xA;インストールとバージョン確認。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install -g aws-cdk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;h1 id=&#34;プロジェクトの作成&#34;&gt;プロジェクトの作成&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;ディレクトリの作成&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir my-ckd-project&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-cdk-project&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;初期化&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cdk init app --language&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;typescript&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これでCDKプロジェクトの雛形が生成される。&lt;br&gt;&#xA;具体的に作成されるのは以下の構成。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<h1 id="準備">準備</h1>
@@ -210,9 +210,9 @@ For more examples and ideas, visit:
     </item>
     <item>
       <title>Hugoでコンテンツを追加する</title>
-      <link>https://example.com/posts/202501/250126-01/</link>
+      <link>http://localhost:1313/posts/202501/250126-01/</link>
       <pubDate>Sun, 26 Jan 2025 08:34:30 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-01/</guid>
+      <guid>http://localhost:1313/posts/202501/250126-01/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;コンテンツを追加&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/post-name.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;デフォルトでは&lt;code&gt;draft = true&lt;/code&gt;になっているので、公開前に&lt;code&gt;false&lt;/code&gt;にする。&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;ローカルでサイトをプレビュー&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;http://localhost:1313/&lt;/code&gt; にアクセスしてプレビューを確認する。&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<ol>
