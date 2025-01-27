@@ -9,17 +9,17 @@
 >
   <channel>
     <title>React on Note</title>
-    <link>https://example.com/tags/react/</link>
+    <link>https://forsteri.github.io/note/tags/react/</link>
     <description>Recent content in React on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 26 Jan 2025 21:11:06 +0900</lastBuildDate>
-    <atom:link href="https://example.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://forsteri.github.io/note/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reactプロジェクトを作成する（更新中）</title>
-      <link>https://example.com/posts/202501/250126-07/</link>
+      <link>https://forsteri.github.io/note/posts/202501/250126-07/</link>
       <pubDate>Sun, 26 Jan 2025 21:11:06 +0900</pubDate>
-      <guid>https://example.com/posts/202501/250126-07/</guid>
+      <guid>https://forsteri.github.io/note/posts/202501/250126-07/</guid>
       <description>&lt;p&gt;タスク管理アプリのフロントエンドをReactで作成する。&lt;br&gt;&#xA;以下のようなディレクトリ構成とする。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/project-root&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── infra        # CDKプロジェクト&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── cdk.json&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── lib/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── lambda       # Lambdaのコード&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── create-task.ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── delete-task.ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── frontend     # Reactプロジェクト&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── node_modules/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── public/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── src/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── package.json&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └── ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reactプロジェクトを作成する&lt;/p&gt;</description>
       
         <content:encoded><![CDATA[<p>タスク管理アプリのフロントエンドをReactで作成する。<br>

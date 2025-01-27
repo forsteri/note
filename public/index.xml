@@ -13,8 +13,38 @@
     <description>Recent content on Note</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 26 Jan 2025 17:24:30 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 21:11:06 +0900</lastBuildDate>
     <atom:link href="https://forsteri.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reactプロジェクトを作成する（更新中）</title>
+      <link>https://forsteri.github.io/note/posts/202501/250126-07/</link>
+      <pubDate>Sun, 26 Jan 2025 21:11:06 +0900</pubDate>
+      <guid>https://forsteri.github.io/note/posts/202501/250126-07/</guid>
+      <description>&lt;p&gt;タスク管理アプリのフロントエンドをReactで作成する。&lt;br&gt;&#xA;以下のようなディレクトリ構成とする。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/project-root&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── infra        # CDKプロジェクト&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── cdk.json&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── lib/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── lambda       # Lambdaのコード&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── create-task.ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── delete-task.ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── frontend     # Reactプロジェクト&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── node_modules/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── public/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── src/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ├── package.json&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    └── ...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reactプロジェクトを作成する&lt;/p&gt;</description>
+      
+        <content:encoded><![CDATA[<p>タスク管理アプリのフロントエンドをReactで作成する。<br>
+以下のようなディレクトリ構成とする。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">/project-root
+</span></span><span class="line"><span class="cl">├── infra        # CDKプロジェクト
+</span></span><span class="line"><span class="cl">│   ├── cdk.json
+</span></span><span class="line"><span class="cl">│   ├── lib/
+</span></span><span class="line"><span class="cl">│   └── ...
+</span></span><span class="line"><span class="cl">├── lambda       # Lambdaのコード
+</span></span><span class="line"><span class="cl">│   ├── create-task.ts
+</span></span><span class="line"><span class="cl">│   ├── delete-task.ts
+</span></span><span class="line"><span class="cl">│   └── ...
+</span></span><span class="line"><span class="cl">└── frontend     # Reactプロジェクト
+</span></span><span class="line"><span class="cl">    ├── node_modules/
+</span></span><span class="line"><span class="cl">    ├── public/
+</span></span><span class="line"><span class="cl">    ├── src/
+</span></span><span class="line"><span class="cl">    ├── package.json
+</span></span><span class="line"><span class="cl">    └── ...
+</span></span></code></pre></div><p>Reactプロジェクトを作成する</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> frontend
+</span></span><span class="line"><span class="cl">npx create-react-app .
+</span></span></code></pre></div>]]></content:encoded>
+      
+    </item>
     <item>
       <title>WSLのメモ（更新中）</title>
       <link>https://forsteri.github.io/note/posts/202501/250126-06/</link>
