@@ -1,7 +1,7 @@
 baseURL: "https://forsteri.github.io/note/"
 languageCode: ja-jp
 defaultContentLanguage: ja
-title: Note
+title: Lab Notes
 theme: fluency
 enableRobotsTXT: true
 summaryLength: 10 # Configure how long the post summary should be on the homepage.
@@ -34,7 +34,7 @@ taxonomies:
 
 params:
   author: forsteri
-  description: "Note for forsteri"
+  description: "Lab Notes for forsteri"
   # copyright: "© 2021 &nbsp;<a href='https://github.com/wayjam/hugo-theme-fluency'>Hugo Theme Fluency</a>"
 
   customCSS: ["/css/custom.css"]
