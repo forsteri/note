@@ -1,0 +1,32 @@
+# Hugo build output
+# public/
+# resources/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if used)
+node_modules/
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Hugo cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore Hugo themes if using submodules (uncomment if needed)
+# themes/*
+# !themes/fluency/
