@@ -29,13 +29,18 @@
    brew install hugo
    ```
 
-2. サイトのローカルプレビュー
+2. コンテンツの追加
+    ``` sh
+    hugo new posts/post-name.md
+    ```
+
+3. サイトのローカルプレビュー
    ```sh
    hugo server -D
    ```
    - `http://localhost:1313` で確認できます。
 
-3. 静的ファイルのビルド
+4. 静的ファイルのビルド
    ```sh
    hugo
    ```
