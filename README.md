@@ -18,33 +18,49 @@
 └── ...
 ```
 
+## クイックスタート（久しぶりの人向け）
+
+```sh
+# 1. 記事を作る（ファイル名: YYMMDD-連番.md）
+hugo new posts/$(date +%Y%m)/$(date +%y%m%d)-01.md
+
+# 2. 作成されたファイルを編集する
+#    - title, tags を設定
+#    - 本文を書く
+#    - 公開するなら draft = false にする
+
+# 3. ローカルで確認（draft記事も表示される）
+hugo server -D
+
+# 4. 公開（push するだけ。GitHub Actions が自動でビルド＆デプロイ）
+git add . && git commit -m "記事を追加" && git push
+```
+
+### 記事テンプレート
+
+```toml
++++
+date = '2025-01-26T08:34:30+09:00'
+title = '記事のタイトル'
+tags = ['Hugo', 'AWS']
+draft = true
++++
+
+本文をここに書く。
+```
+
+### ファイル配置ルール
+
+```
+content/posts/
+  └── YYYYMM/          # 年月ディレクトリ
+      ├── YYMMDD-01.md  # 記事ファイル（日付-連番）
+      └── YYMMDD-02.md
+```
+
 ## 必要なツール
-- [Hugo](https://gohugo.io/getting-started/installing/)
+- [Hugo](https://gohugo.io/getting-started/installing/) (`brew install hugo`)
 - [Git](https://git-scm.com/)
-
-## サイトのビルド方法
-
-1. 依存ツールのインストール（初回のみ）
-   ```sh
-   brew install hugo
-   ```
-
-2. コンテンツの追加
-    ``` sh
-    hugo new posts/post-name.md
-    ```
-
-3. サイトのローカルプレビュー
-   ```sh
-   hugo server -D
-   ```
-   - `http://localhost:1313` で確認できます。
-
-4. 静的ファイルのビルド
-   ```sh
-   hugo
-   ```
-   - `public/` ディレクトリに出力されます。
 
 ## GitHub Pages での公開（CI/CD設定）
 
