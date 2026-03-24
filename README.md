@@ -22,7 +22,7 @@
 
 ```sh
 # 1. 記事を作る（ファイル名: YYMMDD-連番.md）
-hugo new posts/$(date +%Y%m)/$(date +%y%m%d)-01.md
+hugo new posts/$(date +%Y%m)/$(date +%Y%m%d)-01.md
 
 # 2. 作成されたファイルを編集する
 #    - title, tags を設定
